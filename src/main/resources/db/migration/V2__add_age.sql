@@ -1,0 +1,1 @@
+ALTER TABLE suntest ADD COLUMN  userAge INT(10)
