@@ -24,6 +24,7 @@ public class H2Runner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        /*
         String SQL = "";
         try (Connection connection = dataSource.getConnection()){
 
@@ -44,5 +45,8 @@ public class H2Runner implements ApplicationRunner {
 
         SQL = "DELETE FROM SUNTEST where id=?";
      //  jdbcTemplate.update(SQL, 1);
+
+         */
     }
+
 }

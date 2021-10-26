@@ -1,7 +1,7 @@
-package com.example.springboot_basic.sequrity;
+package com.example.springboot_basic.security;
 
-import com.example.springboot_basic.sequrity.jpa.Account;
-import com.example.springboot_basic.sequrity.jpa.AccountRepository;
+import com.example.springboot_basic.security.jpa.Account;
+import com.example.springboot_basic.security.jpa.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

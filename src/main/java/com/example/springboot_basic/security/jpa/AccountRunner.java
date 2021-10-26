@@ -1,6 +1,6 @@
-package com.example.springboot_basic.sequrity.jpa;
+package com.example.springboot_basic.security.jpa;
 
-import com.example.springboot_basic.sequrity.AccountService;
+import com.example.springboot_basic.security.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

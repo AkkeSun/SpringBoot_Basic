@@ -1,4 +1,4 @@
-package com.example.springboot_basic.sequrity.jpa;
+package com.example.springboot_basic.security.jpa;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

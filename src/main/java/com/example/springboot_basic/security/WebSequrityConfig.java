@@ -1,4 +1,4 @@
-package com.example.springboot_basic.sequrity;
+package com.example.springboot_basic.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ public class WebSequrityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                    .antMatchers("/", "/hello").permitAll()
+                    .antMatchers("/", "/hello", "/corsTest").permitAll()
                     .anyRequest().authenticated()
                     .and()
                 .formLogin()
